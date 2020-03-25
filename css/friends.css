@@ -1,0 +1,107 @@
+html{
+    color:#333; 
+    background:#242C39;
+}
+*{
+    box-sizing: border-box;
+     margin:0; padding:0;
+ }
+body{
+     font-family: Arial;
+     padding:0; 
+     margin:0;
+ }
+.sendr{
+    background-color: #e7900d;
+    box-sizing: border-box;
+    width: 15vw;
+    overflow:hidden;
+    height:15vw;
+    margin-right:3px;
+}
+
+.requester{
+    width:100%;
+    display:inline-flex;
+    padding: 2px;
+    border:1px solid #aaa;
+}
+
+.request-panel{
+    display:block;
+    text-align:center;
+    width:72vw;
+    border-left: 1px solid #ccc;
+}
+
+.request-panel h3{
+    color:#fff;
+    font-family:tahoma;
+    margin-bottom: 7%;
+}
+    
+.request-panel button{
+    width:20%;
+    background:#f00;
+    color:#fff;
+    font-family:tahoma;
+    padding:5px;
+    border:1px solid #f00;
+    outline:none;
+    font-size:120%;
+    margin:1.5px;
+    height:20%;
+}
+
+.request-panel button:active{
+    color:#f58608;
+    background:none;
+}
+
+.navs {
+    background: #242C39;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -4px 25px 0 rgba(0, 0, 0, .12);
+    list-style: none;
+    }
+
+    .navs a{
+        text-decoration: none;
+        color: #8E919A;
+    }
+    
+    .navs .icon {
+    flex: 1;
+    text-align: center;
+    }
+    
+    .navs .icon i {
+    padding-bottom: 10px;
+    font-size: 20px;
+    }
+    
+    .navs .icon li {
+    font-size: 12px;
+    }
+    
+    .active{
+    color: #FFDF3B !important;
+    }
+
+    .navs li a:hover{
+        color: yellow;
+    }
+    
+    ::-webkit-scrollbar {
+    display: none;
+    }
+    
+    .space {
+    height: 200px;
+    }
